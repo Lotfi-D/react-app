@@ -11,7 +11,6 @@ function App() {
       <Route path="/products">
         <ListArticles />
       </Route>
-
       <Route path="/product/:id">
         <ArticleDetails />
       </Route>

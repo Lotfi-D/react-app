@@ -28,14 +28,14 @@ class ListArticles extends React.Component {
     
         <div>
             <h1>List of articles</h1> 
-            <p>  {articles.map((article) => {
+            <div>  {articles.map((article) => {
         return (
           <li key={article.id}>
             <p><Link to={`/product/${+ article.id}`} >{article.title}</Link> </p>
             <span>{article.body}</span>
           </li>
         );
-      })}</p>
+      })}</div>
         </div>
     );
   }
