@@ -57,7 +57,7 @@ const ArticleDetails = () =>{
         }
 
         return (
-            <div className="justify-content-center">
+            <div className="col-md-12 mb-5">
                 <h1 className="text-center mt-5">Article's detail</h1> <br/>
                 {content}
             </div>
