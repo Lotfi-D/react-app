@@ -2,6 +2,7 @@ import {Route} from 'react-router-dom';
 import ListArticles from './Components/ListArticles';
 import ArticleDetails from './Components/ArticleDetails';
 //import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
